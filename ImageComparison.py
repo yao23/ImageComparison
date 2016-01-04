@@ -33,7 +33,10 @@ def getimagehash(image):
    hexadecimal = int(bits, 2).__format__('016x').upper()
 
    print hexadecimal
-   return hexadecimal
+
+   hexdec = int(bits, 2)
+   print hexdec
+   return hexdec
 
 image0 = Image.open("baybridge.jpg")
 image1 = Image.open("baybridge1.jpg")
